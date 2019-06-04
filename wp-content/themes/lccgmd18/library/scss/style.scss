@@ -1,0 +1,129 @@
+/******************************************************************
+Stylesheet: Main Stylesheet
+******************************************************************/
+
+/*********************
+PARTIALS
+*********************/
+
+
+// Sass variables
+@import "partials/variables";
+
+// typography
+@import "partials/typography";
+
+// import mixins
+@import "partials/mixins";
+
+// the grid
+@import "partials/grid";
+
+// the homepage
+@import "partials/home";
+// the posts
+@import "partials/post";
+
+
+/*********************
+BASE (MOBILE) SIZE
+*********************/
+
+@import "breakpoints/base";
+
+/*********************
+EXTRA LARGE VIEWING SIZE
+*********************/
+@media only screen and (max-width: 1440px) {
+
+	@import "breakpoints/1440";
+
+} // end of media query
+
+/*********************
+LARGE VIEWING SIZE
+*********************/
+@media only screen and (max-width: 1240px) {
+
+	@import "breakpoints/1240";
+
+} // end of media query
+
+/*********************
+DESKTOP
+*********************/
+@media only screen and (max-width: 1030px) {
+
+	@import "breakpoints/1030";
+
+} // end of media query
+
+/*********************
+SMALL DESKTOP
+*********************/
+@media only screen and (max-width: 920px) {
+
+	@import "breakpoints/920";
+
+} // end of media query
+
+/*********************
+TABLET & SMALLER LAPTOPS
+*********************/
+@media only screen and (max-width: 768px) {
+
+	@import "breakpoints/768";
+
+} // end of media query
+
+
+/*********************
+LARGER MOBILE DEVICES
+*********************/
+@media only screen and (max-width: 600px) {
+
+	@import "breakpoints/600";
+
+} // end of media query
+
+
+/*********************
+RETINA (2x RESOLUTION DEVICES)
+*********************/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+
+	@import "breakpoints/2x";
+
+} // end of media query
+
+
+/* HIDE FOR LAUNCH
+.home footer {
+  display: none;
+}
+
+header li {
+  //display: none;
+
+	&:first-of-type {
+		display: none;
+	}
+}
+
+.index-icon {
+	//display: none;
+}
+
+#thumbnails {
+  //display: none;
+}
+
+body,html {
+  //overflow: hidden;
+} */
+
+/*#index {
+	display: none;
+}*/

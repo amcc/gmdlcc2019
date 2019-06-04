@@ -1,0 +1,116 @@
+// Student Page
+
+.single-post {
+  background-color: #fff;
+
+  header { position: relative; }
+
+  header a { color:  $dark; }
+  footer {
+    background-color: transparent;
+    color: $dark;
+    a { color: $dark; border-color: $dark;}
+  }
+}
+
+
+.studentslash {
+  color: #fff;
+}
+.student-page {
+  .student-name-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    display: block;
+    background: $highlight;
+  }
+  .student-project {
+    margin-bottom: 3rem;
+  }
+  //
+  .student-meta {
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+
+    span {
+      // display: block;//
+    }
+
+    .student-name {
+      color: #000;
+      font-size: 3rem;
+    }
+
+    .student-bio {
+      margin-top: 2rem;
+      margin-left: 0;
+    }
+    .student-website {
+      margin-top: 2rem;
+    }
+
+    .student-website a, .student-email a {
+      color: $dark;
+      border-bottom: 2px solid $dark;
+      font-family: "NB International Mono", monospace;
+      font-size: 0.88em;
+      line-height: 1.825;
+    }
+  }
+
+  .student-project-meta {
+    .student-project-description {
+      margin-top: 2rem;
+      font-family: "NB International Mono", monospace;
+      font-size: 0.88em;
+    }
+  }
+
+  .student-project-images {
+    img {
+      margin-bottom: 2rem;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .student-project-video-wrapper {
+    padding-bottom: 57%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .student-project-image-wrapper {
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+
+    &.fadein {
+      opacity: 1;
+    }
+  }
+}
+
+.disable-hover, .disable-hover * {
+    pointer-events: none !important;
+}
+
+// show cursor on images that can fullscreen
+.student-project-image {
+  cursor: pointer;
+}
+
+// hide links
+.internal-no-links {
+  display: none;
+}

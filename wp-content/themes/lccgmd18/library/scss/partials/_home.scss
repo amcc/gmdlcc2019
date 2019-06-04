@@ -1,0 +1,257 @@
+// Thumbnails
+
+.page-template-page-home-alt {
+  .thumb {
+    //opacity: 1;
+    background-color: transparent;
+    z-index: 5;
+    margin-left: 0;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    padding-bottom: 15%;
+    margin-bottom: 0;
+    width: calc(100%/6);
+    //width:
+  }
+}
+
+#categories {
+  z-index: 90;
+  background-color: $grey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  button {
+    font-size: 0.98rem;
+    padding-right: 4px;
+    // font-family: "NB International Mono", monospace;
+  }
+  .categoryslash {
+    color: #fff;
+  }
+
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.unsticky {
+  position: relative;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+ // .sticky + #thumbnails {
+ //   padding-top: 180px;
+ // }
+
+// .button {
+//
+//       display: block;
+//     width: 100%;
+//     text-align: left;
+//     padding-left: 5rem;
+//     background: transparent;
+//     border: none;
+//     color: #181818;
+//     font-family: 'NB International';
+//     font-size: 1.1rem;
+//     cursor: pointer;
+// }
+
+
+/*.button:hover {
+  color: #181818; opacity: 0.7;
+}*/
+//
+	button:focus {outline:0;}
+
+
+.button:active,
+.button.is-checked {
+}
+
+.button.is-checked {
+  color: #ffea45;
+}
+
+.button:active {
+}
+
+
+/*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+*/
+/* ---- isotope ---- */
+
+.grid {
+  // width: calc(80% - 5rem);
+  // position:absolute!important;
+  // left: 20%!important;
+  // top:68px!important;
+  // padding-bottom: 250px;
+}
+//
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-item {
+  // width: 32%;
+  // width: 20vw;
+  // height: 20vw;
+  // width: 20%;
+  // height: 20%;
+
+  // make it square
+  height:0;width:20%;padding-bottom:20%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  img {
+    width: 100%;
+    height: auto;
+  }
+.student {
+    // text-align: center;
+    background: $highlight;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    color: black;
+    padding: 5% 10%;
+    font-size: 0.8rem;
+
+    li {
+      font-size: 0.7rem;
+      list-style-type: none;
+    }
+    ul {
+      margin: 10px 0 0 0;
+      padding: 0;
+    }
+  }
+  .studentslash {
+    color: #000;
+  }
+}
+
+.grid-item:hover .student {opacity: 1;}
+
+
+
+#thumbnails {
+  //margin-top: 100vh;
+  // padding-top: 5px;
+  // padding-top: 6rem;
+  // padding-bottom: 6rem;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+
+  .container {
+    width: 100%;
+  }
+  #thumbnail-icons {
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+
+    img {
+      width: 29px;
+    }
+
+    &.visible {
+      pointer-events: auto;
+      opacity: 1;
+    }
+  }
+
+  .to-top, .index-icon {
+    position: fixed;
+    top: 50%;
+  }
+
+  .to-top {
+    right: 2.5rem;
+    color: $highlight;
+    @include translate(50%, -50%);
+  }
+
+  .index-icon {
+    display: none;
+    left: 2.5rem;
+    @include translate(-50%, -50%);
+  }
+}
+
+.crosses {
+  pointer-events: none;
+}
+
+.crosses img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+  visibility: hidden;
+  z-index: 0;
+}
+
+.thumb {
+  //height: 100px;
+  //background-color: lighten($grey, 30%);
+  //padding-bottom: 15%;
+  //margin-bottom: 2%;
+  //margin-left: 0;
+  //width: calc(100%/6);
+  //width:
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+  //border: 1px solid white;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+  transition-property: opacity, filter, -webkit-filter;
+  background-color: transparent;
+  z-index: 5;
+  margin-left: 0;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  padding-bottom: 15%;
+  margin-bottom: 0;
+  width: calc(100%/6);
+
+  &.col4 {
+    width: calc(100%/3);
+    padding-bottom: 32%;
+  }
+
+  &.fadein {
+    opacity: 1;
+  }
+
+  &:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+  }
+
+  img {
+    position: absolute;
+    width: 100%;
+  }
+
+  &:nth-of-type(6n+1) {
+    margin-left: 0;
+  }
+}

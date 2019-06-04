@@ -1,0 +1,33 @@
+// HOMEPAGE
+.container, .student-name {
+    width: calc(100% - 5rem);
+}
+.exhibition-title-word {
+  // font-size: 12rem;
+  font-size: calc((2 * 1vw)*10);
+  // letter-spacing: -0.42rem;
+  letter-spacing: calc((-0.8 * 1vw));
+}
+
+.cross-icon {
+  .cross-icon-inner img {
+    margin-left: -24px;
+    margin-top: -8rem;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.grid-item {
+  width:20%;padding-bottom:20%;
+}
+
+// FOOTER
+
+.footer-directions {
+  width: 23.5%;
+}
+
+.footer-private-view.offset4 {
+  margin-left: 27.5%;
+}

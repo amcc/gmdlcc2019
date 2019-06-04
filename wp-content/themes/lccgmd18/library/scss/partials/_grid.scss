@@ -1,0 +1,43 @@
+$gutter: 2;
+$grid-columns: 12;
+
+.row {
+  width: 100%;
+  clear: both;
+  //overflow: hidden;
+}
+
+.row:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@for $i from 1 through $grid-columns {
+  .col#{$i} {
+    float: left;
+    margin-left: $gutter * 1%;
+    box-sizing: border-box;
+    $multiplier: $i / $grid-columns;
+    width: 100% * $multiplier - $gutter * (1 - $multiplier);
+  }
+
+  .row .col#{$i}:first-child {
+    margin-left: 0;
+  }
+}
+
+@for $i from 1 through $grid-columns {
+  .row .offset#{$i} {
+    $multiplier: $i / $grid-columns;
+    margin-left: (100% * $multiplier - $gutter * (1 - $multiplier) + ($gutter*2));
+  }
+
+  .row .offset#{$i}:first-of-type {
+    $multiplier: $i / $grid-columns;
+    margin-left: (100% * $multiplier - $gutter * (1 - $multiplier) + $gutter);
+  }
+}

@@ -1,0 +1,67 @@
+.container, .student-name {
+  width: calc(100% - 5rem);
+}
+
+// HOMEPAGE
+
+.exhibition-title-word {
+  font-size: calc((2 * 1vw)*10);
+  letter-spacing: calc((-0.8 * 1vw));
+}
+
+.exhibition-info {
+  a, .arrow {
+    display: none;
+  }
+
+  br:last-of-type {
+    display: none;
+  }
+}
+
+.grid-item {
+  width:25%;padding-bottom:25%;
+}
+
+// INDEX
+
+// #index .index-el {
+//   width: 32%;
+//
+//   &:nth-of-type(4n+1) {
+//     margin-left: 2%;
+//   }
+//
+//   &:nth-of-type(3n+1) {
+//     margin-left: 0;
+//   }
+// }
+
+// THUMBNAILS
+
+#thumbnails {
+  //padding-top: 3rem;
+}
+
+// OVERLAYS
+
+.overlay header button {
+  right: 2.5rem;
+}
+
+// FOOTER
+
+#thumbnail-icons {
+
+  img {
+    width: 24px;
+  }
+
+  .index-icon {
+    left: 1.2rem;
+  }
+
+  .to-top {
+    right: 1.2rem;
+  }
+}

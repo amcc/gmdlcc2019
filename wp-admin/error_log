@@ -1,0 +1,32 @@
+[13-Jun-2017 15:53:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[13-Jun-2017 15:54:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[13-Jun-2017 15:54:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[13-Jun-2017 18:56:14 UTC] PHP Warning:  Error while sending QUERY packet. PID=773366 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 19:40:49 UTC] PHP Warning:  Error while sending QUERY packet. PID=807443 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 19:41:55 UTC] PHP Warning:  Error while sending QUERY packet. PID=811052 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 19:43:15 UTC] PHP Warning:  Error while sending QUERY packet. PID=811575 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 19:53:22 UTC] PHP Warning:  Error while sending QUERY packet. PID=819849 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 19:55:56 UTC] PHP Warning:  Error while sending QUERY packet. PID=821065 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 20:44:32 UTC] PHP Warning:  Error while sending QUERY packet. PID=861181 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 21:53:35 UTC] PHP Warning:  Error while sending QUERY packet. PID=916168 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[13-Jun-2017 22:04:08 UTC] PHP Warning:  Error while sending QUERY packet. PID=923935 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 05:03:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[14-Jun-2017 05:03:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[14-Jun-2017 05:04:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[14-Jun-2017 07:57:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[14-Jun-2017 08:02:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/server1g/public_html/wp-includes/class-wp-image-editor.php on line 420
+[14-Jun-2017 12:19:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=668422 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 13:29:56 UTC] PHP Warning:  Error while sending QUERY packet. PID=733336 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 15:08:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/server1g/public_html/wp-admin/includes/translation-install.php on line 66
+[14-Jun-2017 16:23:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=892713 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 17:01:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=924080 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 19:31:32 UTC] PHP Warning:  Error while sending QUERY packet. PID=3044 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 19:34:47 UTC] PHP Warning:  Error while sending QUERY packet. PID=4731 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 19:35:42 UTC] PHP Warning:  Error while sending QUERY packet. PID=5080 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 19:38:58 UTC] PHP Warning:  Error while sending QUERY packet. PID=6797 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 19:39:58 UTC] PHP Warning:  Error while sending QUERY packet. PID=7149 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[14-Jun-2017 19:45:56 UTC] PHP Warning:  Error while sending QUERY packet. PID=14326 in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[18-Jun-2017 04:45:22 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[18-Jun-2017 04:45:22 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/server1g/public_html/wp-includes/wp-db.php on line 1877
+[03-Nov-2017 06:56:17 Europe/London] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[03-Nov-2017 06:56:21 Europe/London] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0

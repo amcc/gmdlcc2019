@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'NB International';
+  src: url('../fonts/nb_international_bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/nb_international_bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/nb_international_bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/nb_international_bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/nb_international_bold-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NB International Mono';
+  src: url('../fonts/nb_international_mono-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/nb_international_mono-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/nb_international_mono-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/nb_international_mono-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/nb_international_mono-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'NB International Regular';
+    src: url('nb_international_pro_regular-webfont.eot');
+    src: url('nb_international_pro_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nb_international_pro_regular-webfont.woff2') format('woff2'),
+         url('nb_international_pro_regular-webfont.woff') format('woff'),
+         url('nb_international_pro_regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NB International Light';
+    src: url('nb_international_pro_light-webfont.eot');
+    src: url('nb_international_pro_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nb_international_pro_light-webfont.woff2') format('woff2'),
+         url('nb_international_pro_light-webfont.woff') format('woff'),
+         url('nb_international_pro_light-webfont.ttf') format('truetype');
+}
+
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'NB International', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+}
+
+header {
+  font-family: 'NB International', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: $light;
+  text-decoration: none;
+
+  &:focus {
+    outline: 0;
+  }
+}

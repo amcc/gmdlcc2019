@@ -1,0 +1,12 @@
+.sass-cache
+.sass-cache/*
+
+*.scssc
+
+wp-content/uploads/*
+wp-content/cache
+wp-content/cache/*
+#wp-config.php
+
+*.log
+wp-config.php

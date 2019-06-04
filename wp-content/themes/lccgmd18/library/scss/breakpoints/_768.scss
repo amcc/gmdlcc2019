@@ -1,0 +1,102 @@
+// HOMEPAGE
+
+.exhibition-info {
+  display: none;
+}
+
+.cross-icon {
+  margin-left: 2%;
+
+  .cross-icon-inner img {
+    margin-left: -18px;
+    margin-top: 5rem;
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.exhibition-title-word.offset3:first-of-type {
+  margin-left: 0;
+}
+
+.exhibition-title-word.col8 {
+  width: 74.5%;
+}
+
+header li {
+  display: block;
+}
+
+// THUMBNAILS
+
+.thumb {
+  //width: 23.5%;
+  //padding-bottom: 23.5%;
+}
+
+.thumb:nth-of-type(6n+1) {
+//    margin-left: 2%;
+}
+
+.thumb:nth-of-type(4n+1) {
+//    margin-left: 0;
+}
+
+// INDEX
+
+#index .index-el {
+  // width: 49%;
+
+  &:nth-of-type(4n+1), &:nth-of-type(3n+1) {
+    margin-left: 2%;
+  }
+
+  &:nth-of-type(2n+1) {
+    margin-left: 0;
+  }
+}
+
+// FOOTER
+
+footer .col3, footer .col2 {
+  width: 32%;
+
+  &.offset4 {
+    margin-left: 2%;
+  }
+}
+
+// STUDENT PAGE
+
+.student-page {
+  .student-meta {
+    margin-bottom: 6rem;
+    .student-info, .student-bio.offset1 {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .student-bio.offset1 {
+      margin-top: 2rem;
+      width: 66%;
+    }
+
+    .student-website {
+      margin-top: 1rem;
+    }
+  }
+
+  .student-project {
+    .col3, .col8 {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .student-project-description { margin-top: 1rem; }
+
+    .student-project-meta {
+      width: 66%;
+      margin-bottom: 2rem;
+    }
+  }
+}

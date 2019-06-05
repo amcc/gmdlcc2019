@@ -105,7 +105,25 @@ add_filter( 'upload_size_limit', 'wpse_70754_change_upload_size' );
 
 function wpse_70754_change_upload_size()
 {
-  return 5000 * 1024;
+  return 1500 * 1024;
 }
+
+// this will prevent missing values for non filled in fields
+function nullify_empty($value, $post_id, $field)
+{
+    if (empty($value)) {
+        return null;
+    }
+
+    return $value;
+}
+
+add_filter('acf/format_value/type=image', 'nullify_empty', 100, 3);
+add_filter('acf/format_value/type=relationship', 'nullify_empty', 100, 3);
+add_filter('acf/format_value/type=repeater', 'nullify_empty', 100, 3);
+add_filter('acf/format_value/type=link', 'nullify_empty', 100, 3);
+// not sure if gallery is internally named gallery as well but this should work
+// add_filter('acf/format_value/type=gallery', 'nullify_empty', 100, 3); 
+
 
 ?>
